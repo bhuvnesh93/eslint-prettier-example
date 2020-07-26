@@ -13,9 +13,9 @@ module.exports = {
     'react/jsx-props-no-spreading': 0,
     'no-unused-expressions': 0,
     'import/extensions': 0,
-    'no-use-before-define': ['error', {variables: false}],
-    'import/no-extraneous-dependencies': ['error', {devDependencies: true}],
-    'import/no-cycle': [0, {maxDepth: 1}],
+    'no-use-before-define': ['error', { variables: false }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/no-cycle': [0, { maxDepth: 1 }],
     'react/jsx-filename-extension': [
       1,
       {
